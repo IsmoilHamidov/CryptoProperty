@@ -1,0 +1,1405 @@
+
+@media screen and (max-width: 576px){
+
+   
+    /* Footer qismi */
+    .Nav_Logos{
+        width: 25%;
+    }
+    .Nav_Logos img{
+        width: 18px;
+        height: 18px;
+    }
+    .footer_Image{
+        width: 50px;
+        height: 50px;
+    }
+    .footer_info{
+        font-size: 14px;
+        padding: 40px;
+    }
+
+
+   /* Main container */
+    .Main_container{
+        width: 100%;
+        height: 1750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px; 
+    }
+
+    .left_side{
+        width:100%;
+        height: 500px;
+        row-gap: 5px;
+        border-radius: 20px 20px 0px 0px;
+        padding: 5px 0px;
+    }
+
+    .spans_icons{
+        padding: 0px 50px;
+        height : 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .spans_icons i{
+        display: none;
+    }
+    .imageLogo{
+        display: none;
+    }
+
+    .main_logos{
+        width: 45%;
+        height: auto;
+        position: absolute;
+        bottom: 18%;
+    }
+    .main_logos img{
+        width: 25px;
+        height: 25px;
+    }
+    .Vixod{
+        bottom: 3%;
+    }
+
+    /* */
+        /*programma*/ 
+    .right_side{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 0px 20px 20px;
+        padding: 35px;
+    }
+
+    .Programma_container{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    .Account_box{
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+        line-height: 30.8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .A_child1{
+        justify-content: space-around;
+        width: 60%;
+        
+    }
+    .A_child2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 30px;
+        row-gap: 15px;
+    }
+    .Link_box{
+        height: auto;
+        padding: 50px 20px;
+    }
+    .Link_box h2{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .link_copy{
+        height: auto;
+        padding: 20px;
+    }
+
+    .link_copy a{
+        font-size: 18px;
+        word-wrap: break-word;
+        width: 100%;
+    }
+    .Link_box p{
+        width: 100%;
+        font-size: 19px;
+    }
+        /* settings */
+
+    .FullName_box{
+        height: 186px;
+      }
+      
+      .FullName_box img{
+        width: 80px;
+        height: 80px;
+      }
+      
+      .FullName_box p{
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .changeName_box{
+        width: 100%;
+      }
+      .changePassword_box{
+        padding: 20px 50px;
+      }
+      .inputIcons{
+        width: 100%;
+      }
+      .changePassword_box button{
+        width: 100%;
+      }
+        /* панель */
+
+    .Cash_box{
+        width: 100%;
+        font-size: 21px;
+    }
+    .Buying_box{
+        width: 100%;
+        height: auto;
+    }
+    .Buying_box button{
+        width: 40%;
+        font-size: 20px;
+    }
+    .Chart_box{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 15px 0px;
+    }
+    .recharts{
+        height: 100%;
+    } 
+
+
+    /* Balance */
+    .Main_balance{
+        width: 100%;
+    }
+    .Main_balance h2{
+        font-size: 33px;
+    }
+    .balance_text{
+        font-size: 20px;
+        grid-column: 1/7;
+    }   
+    .right_cash img{
+        width: 40px;
+        height: 40px;
+    }
+    .right_cash p{
+        font-size: 19px;
+    }
+    .money_icon{
+        width: 45px;
+        height: 42px;
+    }
+
+    .Balance_History_box{
+        height: auto;
+        row-gap: 15px;
+    }
+    .History_title{
+        font-size: 32px;
+    }
+    .select_box{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .select_child{
+        font-size: 17px;
+    }
+
+    .history_information{
+        height: 90px;
+        padding: 5px 12px;
+    }
+    .history_information:hover{
+        height: 100px;
+    }
+    .H_info_left{
+        width: 50%;
+        column-gap: 0px;
+    }
+    .F_box{
+        width: 45px;
+        height: 44px;
+        font-size: 28px;
+    }
+    .f_Box_bold{
+        font-size: 20px;
+    }
+    .F_number{
+        width: 60%;
+        height: 70%;
+        font-size: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .F_number_span{
+        display: none;
+    }
+    .H_info_right{
+        width: 50%;
+    }
+    .right1{
+        width: 65%;
+        letter-spacing: 0.2px;
+        font-size: 13px;
+        row-gap: 4px;
+    }
+    .right2{
+        row-gap: 4px;
+        font-size: 13px;
+    }
+    /* Home page responsiv */
+    .first_left{
+        height: 400px;
+    }
+    .first_left h3{
+        font-size: 33px;
+    }
+    .first_left_form button{
+        height: 50px;
+        font-size: 20px;
+    }
+    .first_right{
+        height: 400px;
+    }
+    .first_right img{
+        height: 80%;
+    }
+    
+    .Capital_F{
+        text-align: center;
+        width: 35%;
+        height: 180px;
+    }
+    .Capital_F p{
+        font-size: 135px;
+    }
+    .Fiat p{
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 42px;
+    }
+    .Realniy_token{
+        width:100%;
+        height: 90%;
+    }
+    .Realniy_token p{
+        font-size: 19px;
+    }
+    .Realniy_token button{
+        width: 100%;
+        height: 60px;
+        font-size: 19px;
+    }
+    
+    .Next_container{
+        height: 4500px;
+        padding: 20px;
+    }
+    .third_top{
+        height: auto;
+        display: grid;
+    }
+    .third_top_children{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .third_top_children p{
+        width: 20%;
+        font-weight: 400;
+    }
+    .third_top_children div{
+        width: 45%;
+        height: 95px;
+        margin-top: 20px;
+    }
+    .third_bottom{
+        padding: 60px 0px;
+    }
+    .third_bottom_child{
+        display: grid;
+        row-gap: 25px;
+        margin-top: 30px;
+    }
+    .third_bottom_left{
+        width: 100%;
+        height: 50%;
+    }
+    .third_bottom_left p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .third_bottom_right{
+        width: 100%;
+        height: 50%;
+    }
+    .third_bottom_right img{
+        width: 250px;
+        height: 200px;
+    }
+    .fourth_container{
+        width: 100%;
+        padding: 30px;
+        height: auto;
+    }
+    .fourth_container h2{
+        font-size: 26px;
+    }
+    .fourth_children{
+        width: 100%;
+        height: auto;
+        display: grid;
+        row-gap: 30px;
+    }
+    .fourth_children_data{
+        width: 100%;
+    }
+    .fourth_children_data img{
+        width: 110px;
+        height: 110px;
+    }
+    .fourth_children_data p{
+        font-size: 17px;
+    }
+    .Fifth_container{
+        width: 100%;
+        padding: 30px;
+        height: 800px;
+        margin-bottom: 30px ;
+    }
+    .Fifth_container h2{
+        font-size: 33px;
+    }
+    .Fifth_container p{
+        font-size: 19px;
+    }
+    .Fifth_container img{
+        width: 90%;
+        height: 270px;
+        bottom: 45%;
+    }
+    .position_Text{
+        width: 100%;
+        position: absolute;
+        bottom: 2%;
+    }
+    
+    .sixth_container{
+        padding: 60px 0px;
+    }
+    .sixth_container p{
+        font-size: 19px;
+    }
+    .Column1{
+        width: 33%;
+    }
+    .sixth_img1_5{
+        width: 175px;
+        height: 190px;
+        position: absolute;
+        top: -2%;
+        z-index: -1;
+    }
+    
+    .buildings{
+        width: 170px;
+        height: 120px;
+    }
+    .sixth_line{
+        width: 150px;
+        height: 50px;
+    }
+    .Column2{
+        width: 33%;
+    }
+    .Column3{
+        width: 33%;
+        height: 40%;
+    }
+    .sixth_link{
+        width: 89%;
+        height: 450px;
+        position: absolute;
+        bottom: 28%;
+        z-index: 1;
+      }
+    
+
+
+      /* Registration */
+      .Registration_container{
+        padding: 50px 0px;
+      }
+      .Reg_form{
+        width: 100%;
+        height: 88%;
+        background-color: #EDF2FF;
+        border-radius: 0px 0px 20px 20px;
+        padding: 20px 15px;
+        border: 2px solid red;
+      }
+
+}    
+
+
+
+
+
+/* min-width 576 */
+
+@media screen and (min-width: 576px){
+
+   
+    /* Footer qismi */
+    .Nav_Logos{
+        width: 25%;
+    }
+    .Nav_Logos img{
+        width: 18px;
+        height: 18px;
+    }
+    .footer_Image{
+        width: 50px;
+        height: 50px;
+    }
+    .footer_info{
+        font-size: 14px;
+        padding: 40px;
+    }
+
+
+    /* Main container */
+    .Main_container{
+        width: 100%;
+        height: 1750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px; 
+    }
+
+    .left_side{
+        width:100%;
+        height: 500px;
+        row-gap: 5px;
+        border-radius: 20px 20px 0px 0px;
+        padding: 5px 0px;
+    }
+
+    .spans_icons{
+        padding: 0px 50px;
+        height : 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .spans_icons i{
+        display: none;
+    }
+    .imageLogo{
+        display: none;
+    }
+
+    .main_logos{
+        width: 45%;
+        height: 20px;
+        position: absolute;
+        bottom: 18%;
+    }
+
+    .main_logos img{
+        width: 25px;
+        height: 25px;
+    }
+    .Vixod{
+        bottom: 3%;
+    }
+
+    /* */
+        /*programma*/ 
+    .right_side{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 0px 20px 20px;
+        padding: 35px;
+    }
+
+    .Programma_container{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    .Account_box{
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+        line-height: 30.8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .A_child1{
+        justify-content: space-around;
+        width: 60%;
+        
+    }
+    .A_child2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 30px;
+        row-gap: 15px;
+    }
+    .Link_box{
+        height: auto;
+        padding: 50px 20px;
+    }
+    .Link_box h2{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .link_copy{
+        height: auto;
+        padding: 20px;
+    }
+
+    .link_copy a{
+        font-size: 18px;
+        word-wrap: break-word;
+        width: 100%;
+    }
+    .Link_box p{
+        width: 100%;
+        font-size: 19px;
+    }
+        /* settings */
+
+    .FullName_box{
+        height: 186px;
+      }
+      
+      .FullName_box img{
+        width: 80px;
+        height: 80px;
+      }
+      
+      .FullName_box p{
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .changeName_box{
+        width: 100%;
+      }
+      .changePassword_box{
+        padding: 20px 50px;
+      }
+      .inputIcons{
+        width: 100%;
+      }
+      .changePassword_box button{
+        width: 100%;
+      }
+        /* панель */
+
+    .Cash_box{
+        width: 100%;
+        font-size: 21px;
+    }
+    .Buying_box{
+        width: 100%;
+        height: auto;
+    }
+    .Buying_box button{
+        width: 40%;
+        font-size: 20px;
+    }
+    .Chart_box{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 15px 0px;
+    }
+    .recharts{
+        height: 100%;
+    } 
+
+
+    /* Balance */
+    .Main_balance{
+        width: 100%;
+    }
+    .Main_balance h2{
+        font-size: 33px;
+    }
+    .balance_text{
+        font-size: 20px;
+        grid-column: 1/7;
+    }   
+    .right_cash img{
+        width: 40px;
+        height: 40px;
+    }
+    .right_cash p{
+        font-size: 19px;
+    }
+    .money_icon{
+        width: 45px;
+        height: 42px;
+    }
+
+    .Balance_History_box{
+        height: auto;
+        row-gap: 15px;
+    }
+    .History_title{
+        font-size: 32px;
+    }
+    .select_box{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .select_child{
+        font-size: 17px;
+    }
+
+    .history_information{
+        height: 90px;
+        padding: 5px 12px;
+    }
+    .history_information:hover{
+        height: 100px;
+    }
+    .H_info_left{
+        width: 50%;
+        column-gap: 0px;
+    }
+    .F_box{
+        width: 45px;
+        height: 44px;
+        font-size: 28px;
+    }
+    .f_Box_bold{
+        font-size: 20px;
+    }
+    .F_number{
+        width: 60%;
+        height: 70%;
+        font-size: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .F_number_span{
+        display: none;
+    }
+    .H_info_right{
+        width: 50%;
+    }
+    .right1{
+        width: 65%;
+        letter-spacing: 0.2px;
+        font-size: 13px;
+        row-gap: 4px;
+    }
+    .right2{
+        row-gap: 4px;
+        font-size: 13px;
+    }
+
+
+        /* Home page responsiv */
+    .first_left{
+        height: 400px;
+    }
+    .first_left h3{
+        font-size: 33px;
+    }
+    .first_left_form button{
+        height: 50px;
+        font-size: 20px;
+    }
+    .first_right{
+        height: 400px;
+    }
+    .first_right img{
+        height: 80%;
+    }
+
+    .Capital_F{
+        text-align: center;
+        width: 35%;
+        height: 180px;
+    }
+    .Capital_F p{
+        font-size: 135px;
+    }
+    .Fiat p{
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 42px;
+    }
+    .Realniy_token{
+        width:100%;
+        height: 90%;
+    }
+    .Realniy_token p{
+        font-size: 19px;
+    }
+    .Realniy_token button{
+        width: 100%;
+        height: 60px;
+        font-size: 19px;
+    }
+
+    .Next_container{
+        height: 4500px;
+        padding: 20px;
+    }
+    .third_top{
+        height: auto;
+        display: grid;
+    }
+    .third_top_children{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .third_top_children p{
+        width: 20%;
+        font-weight: 400;
+    }
+    .third_top_children div{
+        width: 45%;
+        height: 95px;
+        margin-top: 20px;
+    }
+    .third_bottom{
+        padding: 60px 0px;
+    }
+    .third_bottom_child{
+        display: grid;
+        row-gap: 25px;
+        margin-top: 30px;
+    }
+    .third_bottom_left{
+        width: 100%;
+        height: 50%;
+    }
+    .third_bottom_left p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .third_bottom_right{
+        width: 100%;
+        height: 50%;
+    }
+    .third_bottom_right img{
+        width: 250px;
+        height: 200px;
+    }
+    .fourth_container{
+        width: 100%;
+        padding: 30px;
+        height: auto;
+    }
+    .fourth_container h2{
+        font-size: 26px;
+    }
+    .fourth_children{
+        width: 100%;
+        height: auto;
+        display: grid;
+        row-gap: 30px;
+    }
+    .fourth_children_data{
+        width: 100%;
+    }
+    .fourth_children_data img{
+        width: 110px;
+        height: 110px;
+    }
+    .fourth_children_data p{
+        font-size: 17px;
+    }
+    .Fifth_container{
+        width: 100%;
+        padding: 30px;
+        height: 800px;
+        margin-bottom: 30px ;
+    }
+    .Fifth_container h2{
+        font-size: 33px;
+    }
+    .Fifth_container p{
+        font-size: 19px;
+    }
+    .Fifth_container img{
+        width: 90%;
+        height: 270px;
+        bottom: 45%;
+    }
+    .position_Text{
+        width: 100%;
+        position: absolute;
+        bottom: 2%;
+    }
+
+    .sixth_container{
+        padding: 60px 0px;
+    }
+    .sixth_container p{
+        font-size: 19px;
+    }
+    .Column1{
+        width: 33%;
+    }
+    .sixth_img1_5{
+        width: 175px;
+        height: 190px;
+        position: absolute;
+        top: -2%;
+        z-index: -1;
+    }
+
+    .buildings{
+        width: 170px;
+        height: 120px;
+    }
+    .sixth_line{
+        width: 150px;
+        height: 50px;
+    }
+    .Column2{
+        width: 33%;
+    }
+    .Column3{
+        width: 33%;
+        height: 40%;
+    }
+    .sixth_link{
+        width: 89%;
+        height: 450px;
+        position: absolute;
+        bottom: 28%;
+        z-index: 1;
+    }
+
+    /* Registration */
+    .Registration_container{
+        padding: 50px 0px;
+      }
+    .Reg_form{
+    width: 100%;
+    height: 88%;
+    background-color: #EDF2FF;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px 30px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px){
+
+    .Nav_Logos{
+        width: 15%;
+    }
+    
+    /* Footer qismi */
+    .Nav_Logos img{
+        width: 30px;
+        height: 30px;
+    }
+    .footer_Image{
+        width: 74px;
+        height: 74px;
+    }
+    .footer_info{
+        font-size: 18px;
+        padding: 15px 70px;
+    }
+
+    /* Main container 768 */
+     .Main_container{
+        width: 97%;
+        height: 1100px;
+        display: flex;
+        flex-direction: row;
+        padding: 30px 20px 30px 0px;
+    }
+
+    .left_side{
+        width:25%;
+        height: 100%;
+        row-gap: 10px;
+        border-radius: 20px 0px 0px 20px;
+        padding: 0px;
+    }
+
+    .spans_icons{
+        padding: 0px 20px;
+        height : 65px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .imageLogo{
+        display: flex;
+    }
+    .main_logos{
+        width: 70%;
+        height: 0px 20px;
+        bottom: 13%;
+    }
+    .main_logos img{
+        width: 30px;
+        height: 30px;
+    }
+    .Vixod{
+        bottom: 6%;
+    }
+
+    /*right side */
+    .right_side{
+        width: 74.5%;
+        height: 100%;
+        border-radius: 20px;
+        padding: 10px 65px;
+    }
+        
+    .Programma_container{
+        width: 100%;
+        display: grid;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .Account_box{
+        width: 570px;
+        padding: 25px;
+        font-size: 20px;
+        line-height: 34.8px;
+        margin: 55px 0px;
+    }
+
+    .A_child1{
+        justify-content: space-evenly;
+        width: 50%;
+    }
+    .A_child2{
+        display: flex;
+        flex-direction: row;
+        font-size: 39px;
+        row-gap: 0px;
+        column-gap: 15px;
+    }
+    .Link_box{
+        height: auto;
+        padding: 50px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .Link_box h2{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .link_copy{
+        height: auto;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link_copy a{
+        font-size: 25px;
+        word-wrap: break-word;
+    }
+    .Link_box p{
+        width: 75%;
+        font-size: 23px;
+    }
+
+        /* Settings */
+    
+     .FullName_box{
+        width: 100%;
+        height: 186px;
+      }
+      
+      .FullName_box img{
+        width: 102px;
+        height: 102px;
+      }
+      
+      .FullName_box p{
+        font-size: 40px;
+        line-height: 52.73px;
+      }
+      .changeName_box{
+        width: 100%;
+        height: 220px;
+        margin: 40px 0px;
+        row-gap: 5px;
+        padding: 20px;
+      }
+      .changePassword_box{
+        height: 330px;
+        padding: 30px;
+        row-gap: 20px;
+      }
+      .inputIcons{
+        width: 415px;
+      }
+      .changePassword_box button{
+        width: 415px;
+      }
+
+
+       /* панель */
+
+    .Cash_box{
+        width: 100%;
+        height: 140px;
+        font-size: 24px;
+        margin: 30px 0px;
+        padding: 10px 20px;
+    }
+    .Buying_box{
+        width: 100%;
+        height: 140px;
+        margin: 30px 0px;
+        padding: 0px;
+    }
+    .Buying_box button{
+        width: 40%;
+        height: 50px;
+        font-size: 22px;
+        font-size: 20px;
+    }
+    .Chart_box{
+        height: 670px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: 10px 0px;
+    }
+    .recharts{
+        height: 90%;
+    }
+
+      /* Balance */
+    .Main_balance{
+        width: 430px;
+        padding: 10px 20px;
+
+    }
+    .Main_balance h2{
+        font-size: 35px;
+    }
+    .balance_text{
+        font-size: 20px;
+        grid-column: 4/7;
+    }   
+    .right_cash img{
+        width: 47px;
+        height: 47px;
+    }
+    .right_cash p{
+        font-size: 21px;
+    }
+    .money_icon{
+        width: 55px;
+        height: 52px;
+    }
+
+    .Balance_History_box{
+        height: 550px;
+        row-gap: 18px;
+    }
+    .History_title{
+        font-size: 38px;
+    }
+    .select_box{
+        width: 370px;
+        height: 55px;
+        justify-content: space-between;
+    }
+    .select_child{
+        font-size: 19px;
+    }
+
+    .history_information{
+        height: 85px;
+        padding: 5px 12px;
+    }
+    .history_information:hover{
+        height: 90px;
+    }
+    .H_info_left{
+        width: 60%;
+        column-gap: 0px;
+    }
+    .F_box{
+        width: 55px;
+        height: 50px;
+        font-size: 33px;
+    }
+    .f_Box_bold{
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .F_number{
+        width: 80%;
+        height: 70px;
+        font-size: 18px;
+        padding: 0px 20px;
+        row-gap: 5px;
+    }
+    .F_number_span{
+        width: 0%;
+        margin-left: 5px;
+    }
+    .H_info_right{
+        width: 35%;
+    }
+    .right1{
+        width: 68%;
+        letter-spacing: 1px;
+        font-size: 17px;
+        row-gap: 0px;
+    }
+    .right2{
+        row-gap: 5px;
+        font-size: 14px;
+    }
+
+
+
+
+       /* Home page responsiv */
+    .first_left{
+        height: 550px;
+    }
+    .first_left h3{
+        font-size: 39px;
+    }
+    .first_left_form button{
+        height: 60px;
+        font-size: 22px;
+    }
+    .first_right{
+        height: 550px;
+    }
+    .first_right img{
+        height: 90%;
+    }
+
+    .Capital_F{
+        text-align: start;
+        width: 44%;
+        height: 280px;
+    }
+    .Capital_F p{
+        font-size: 185px;
+    }
+    .Fiat p{
+        font-weight: 700;
+        font-size: 61px;
+        line-height: 62px;
+    }
+    .Realniy_token{
+        width: 90%;
+        height: 70%;
+    }
+    .Realniy_token p{
+        font-size: 21px;
+    }
+    .Realniy_token button{
+        width: 280px;
+        height: 65px;
+        font-size: 20px;
+    }
+
+    .Next_container{
+        width: 100%;
+        height: 3700px;
+        padding: 60px;
+    }
+    .third_top{
+        height: 270px;
+        display: flex;
+    }
+    .third_top_children{
+        display: flex;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 25px;
+        align-items: center;
+    }
+
+    .third_top_children p{
+        width: auto;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .third_top_children div{
+        width: 100%;
+        height: 135px;
+        margin-top: 0px;
+    }
+    .third_bottom{
+        padding: 90px 0px;
+    }
+    .third_bottom_child{
+        height: 75%;
+        margin-top: 70px;
+        display: flex;
+        row-gap: 0px;
+    }
+    .third_bottom_left{
+        width: 55%;
+        height: 100%;
+    }
+    .third_bottom_left p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .third_bottom_right{
+        width: 45%;
+        height: 100%;
+    }
+    .third_bottom_right img{
+        width: 310px;
+        height: 260px;
+    }
+    .fourth_container{
+        height: 600px;
+        padding: 20px 0px;
+    }
+    .fourth_container h2{
+        font-size: 32px;
+    }
+    .fourth_children{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        justify-content: space-between;
+        row-gap: 0px;
+    }
+    .fourth_children_data{
+        width: 45%;
+    }
+    .fourth_children_data img{
+        width: 170px;
+        height: 170px;
+    }
+    .fourth_children_data p{
+        font-size: 19px;
+    }
+    .Fifth_container{
+        width: 750px;
+        padding: 60px 0px;
+        height: 800px;
+        margin-bottom: 70px ;
+    }
+    .Fifth_container h2{
+        font-size: 37px;
+    }
+    .Fifth_container p{
+        font-size: 21px;
+    }
+    .Fifth_container img{
+        width: 800px;
+        height: 420px;
+        bottom: 30%;
+    }
+    .position_Text{
+        width: 90%;
+        position: absolute;
+        bottom: 0%;
+    }
+
+    .sixth_container{
+        padding: 140px 0px;
+    }
+    .sixth_container p{
+        font-size: 25px;
+    }
+    .Column1{
+        width: 30%;
+    }
+    .sixth_img1_5{
+        width: 210px;
+        height: 250px;
+        position: absolute;
+        top: 2%;
+        z-index: -1;
+    }
+
+    .buildings{
+        width: 220px;
+        height: 140px;
+    }
+    .sixth_line{
+        width: 250px;
+        height: 60px;
+    }
+    .Column2{
+        width: 30%;
+    }
+    .Column3{
+        width: 30%;
+        height: 45%;
+    }
+    .sixth_link{
+        width: 750px;
+        height: 550px;
+        position: absolute;
+        bottom: 28%;
+        z-index: 1;
+    }
+
+        /* Registration */
+    .Registration_container{
+        padding: 130px 0px;
+    }
+    .Reg_form{
+    width: 100%;
+    height: 88%;
+    background-color: #EDF2FF;
+    border-radius: 0px 0px 20px 20px;
+    padding: 25px 90px 10px 90px;
+    }
+
+
+}
+    
