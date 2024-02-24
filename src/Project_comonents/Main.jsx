@@ -128,54 +128,55 @@ function Main() {
                                 <p>Имя Фамилия</p>
                         </div>
 
-                        <div className="Main_balance">
-                            <p className="balance_text"> Баланс fiat Coin:</p>
-                            <h2>1280</h2>
+                    <div className="Balance_holder">
+                            <div className="Main_balance">
+                                <p className="balance_text"> Баланс fiat Coin:</p>
+                                <h2>1280</h2>
 
 
-                            <a className="money_box" data-bs-toggle="modal" data-bs-target="#modalBalance2">
-                                <div className="money_icon">
-                                    <img src={moneyicon1} alt="" />
+                                <a className="money_box" data-bs-toggle="modal" data-bs-target="#modalBalance2">
+                                    <div className="money_icon">
+                                        <img src={moneyicon1} alt="" />
+                                    </div>
+                                    <p className="m-0">Пополнить баланс</p>
+                                </a>
+
+                                <a className="money_box money_box2" data-bs-toggle="modal" data-bs-target="#modalBalance1">
+                                    <div className="money_icon">
+                                        <img src={moneyicon2} alt="" />
+                                    </div>
+                                    <p className="m-0">Перевод в доллары</p>
+                                </a>
+                
+
+                                <div className="right_cash" >
+                                    <img src={account_img2} alt="" />
+                                    <i class="fa-solid fa-right-left"></i>
+                                    <p>1220$</p>
                                 </div>
-                                <p className="m-0">Пополнить баланс</p>
-                            </a>
-
-                            <a className="money_box money_box2" data-bs-toggle="modal" data-bs-target="#modalBalance1">
-                                <div className="money_icon">
-                                    <img src={moneyicon2} alt="" />
-                                </div>
-                                <p className="m-0">Перевод в доллары</p>
-                            </a>
-            
-
-                            <div className="right_cash" >
-                                <img src={account_img2} alt="" />
-                                <i class="fa-solid fa-right-left"></i>
-                                <p>1220$</p>
+                                
                             </div>
-                            
-                        </div>
 
 
-                        <div className="Main_balance Main_balance2">
-                            <p className="balance_text"> Доступный баланс для вывода :</p>
-                            <h2>550 $</h2>
+                            <div className="Main_balance Main_balance2">
+                                <p className="balance_text"> Доступный баланс для вывода :</p>
+                                <h2>550 $</h2>
 
 
-                            <a className="money_box" data-bs-toggle="modal" data-bs-target="#modalBalance1">
-                                <div className="money_icon">
-                                    <img src={moneyicon4} alt="" />
-                                </div>
-                                <p className="m-0">Пополнить баланс</p>
-                            </a>
+                                <a className="money_box" data-bs-toggle="modal" data-bs-target="#modalBalance1">
+                                    <div className="money_icon">
+                                        <img src={moneyicon4} alt="" />
+                                    </div>
+                                    <p className="m-0">Пополнить баланс</p>
+                                </a>
 
-                            <a className="money_box money_box2" data-bs-toggle="modal" data-bs-target="#modalBalance2">
-                                <div className="money_icon">
-                                    <img src={moneyicon3} alt="" />
-                                </div>
-                                <p className="m-0"> Вывод средств</p>
-                            </a>
-
+                                <a className="money_box money_box2" data-bs-toggle="modal" data-bs-target="#modalBalance2">
+                                    <div className="money_icon">
+                                        <img src={moneyicon3} alt="" />
+                                    </div>
+                                    <p className="m-0"> Вывод средств</p>
+                                </a>
+                    </div>
 
 
                             {/* <!-- Modal Balance --> */}
