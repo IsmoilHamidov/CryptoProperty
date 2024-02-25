@@ -964,7 +964,9 @@ body{
   color: white;
   box-shadow: #B69BDB 0px 3px 10px 0px;
 }
-
+.first_left_form button:hover a{
+  color: white
+}
 .first_right{
   height: 550px;
   display: flex;
