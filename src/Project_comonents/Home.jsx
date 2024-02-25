@@ -38,7 +38,7 @@ function Home() {
                                 <h3>Ваш надежный криптовалютный серсис недвижимости</h3>
                                 <p>С помощью нашего сервиса Вы с легкостью сможете инвестировать с свое будущее</p>
                                 <form action="" className="first_left_form">
-                                    <button><Link to={"/Registration"}>Регистрация</Link></button>
+                                    <button><Link to={"/Registration"}></Link>Регистрация</button>
                                     <button>Вход</button>
                                 </form>    
                         </div>
