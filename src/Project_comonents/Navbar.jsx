@@ -13,60 +13,40 @@ function Navbar() {
 
     return ( 
     <>
-        <nav class="Navabar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
+                <Link class="navbar-brand" to="/"><img src={nav_img} alt="rasm bor"/></Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
                 </button>
-
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <Link to="/"><img src={nav_img} alt="rasm bor"/></Link>
-
-                    <ul className="Nav_links navbar-nav ">
-                        <li>
-                            <Link to="/Main">Главная</Link>
-                        </li>
-                        <li>
-                            <Link to="/Sena">Цена монеты</Link>
-                        </li>
-                        <li>
-                            <Link to="/Ispolzovat">Как использовать</Link>
-                        </li>
-                        <li>
-                            <Link to="/About_us">О нас</Link>
-                        </li>
-                        <li>
-                            <Link to="/Preimushestva">Преимущества</Link>
-                        </li>
-                    </ul>
-
-
-                    <a href="#" className="Nav_Logos">
-                        <img src={telegram} alt="" />
-                        <img src={facebook} alt="" />
-                        <img src={google} alt="" />
-                        <img src={discord} alt="" />
-                    </a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 Nav_links">
+                    <li>
+                        <Link to="/Main">Главная</Link>
+                    </li>
+                    <li>
+                        <Link to="/Sena">Цена монеты</Link>
+                    </li>
+                    <li>
+                        <Link to="/Ispolzovat">Как использовать</Link>
+                    </li>
+                    <li>
+                        <Link to="/About_us">О нас</Link>
+                    </li>
+                    <li>
+                        <Link to="/Preimushestva">Преимущества</Link>
+                    </li>
+                    <li className="Nav_Logos">
+                        <a href="#"><img src={telegram} alt="" /></a>
+                        <a href="#"><img src={facebook} alt="" /></a>
+                        <a href="#"><img src={google} alt="" /></a>
+                        <a href="#"><img src={discord} alt="" /></a>
+                    </li>
+                </ul>
+            
                 </div>
-
-
-
-
-                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-                <div class="offcanvas-header">
-                    <h5 id="offcanvasTopLabel">Offcanvas top</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  
-                </div>
-                </div>
-
-
             </div>
         </nav>
-
     </>
      );
 }

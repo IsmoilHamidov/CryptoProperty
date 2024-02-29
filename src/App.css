@@ -14,13 +14,13 @@ body{
   font-weight: 400;
   background-color: #EDF2FF !important;
   width: 100%;
-  min-height: 2150px;
+  min-height: 2450px;
   position: relative;
   /* overflow-x: hidden; */
 }
 
 
-.Navabar{
+.navbar{
   width: 100%;
   height: 100px;
   display: flex;
@@ -32,24 +32,22 @@ body{
 
 .navbar-collapse{
   width: 100%;
-  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
 }
 
-.Navabar img{
+.navbar img{
   width: 80px;
   height: 80px
 }
 
 .Nav_links{
-  width: 65%;
+  width: 95%;
   height: auto;
   display: flex;
   justify-content: space-between;
-  /* border: 2px solid red; */
   list-style-type: none;
   margin:0px;
 }
@@ -66,12 +64,11 @@ body{
 }
 
 .Nav_Logos{
-  width: 15%;
+  width: 40%;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid green; */
 }
 .Nav_Logos img{
   width: 30px;
@@ -791,7 +788,7 @@ body{
 }
 
 .H_info_left{
-  width: 30%;
+  width: 40%;
   height: 100%;
   display: flex;
   column-gap: 20px;
@@ -818,16 +815,16 @@ body{
 }
 
 .F_number{
-  width: 65%;
+  width: 50%;
   height: 70px;
   line-height: 20.88px;
   font-size: 18px;
   display: grid;
-  align-content: center;
+  align-content: start;
 }
 
 .H_info_right{
-  width: 35%;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -836,7 +833,7 @@ body{
   margin: 0px;
 }
 .right1{
-  width: 68%;
+  width: 55%;
   height: 100%;
   font-size: 17px;
   display: grid;

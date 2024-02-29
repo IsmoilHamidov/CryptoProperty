@@ -1,16 +1,29 @@
 
 @media screen and (max-width: 576px){
-
+ 
    
-    /* Footer qismi */
-    .Nav_Logos{
-        width: 30%;
+    .navbar{
+        height: auto;
     }
+    .Nav_Logos{
+        width: 25%;
+    }
+    .navbar img{
+        width: 50px;
+        height: 50px;
+    }
+  
+    .Nav_links{
+        display: flex;
+        align-items: center;
+        row-gap: 15px;
+
+    }
+
     .Nav_Logos img{
         width: 18px;
         height: 18px;
     }
-
    
     .footer_Image{
         width: 50px;
@@ -19,13 +32,15 @@
     .footer_info{
         font-size: 14px;
         padding: 40px;
+        height: auto;
+        padding: 15px 40px;
     }
 
 
    /* Main container */
     .Main_container{
         width: 100%;
-        height: 1750px;
+        height: 1800px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -34,10 +49,10 @@
 
     .left_side{
         width:100%;
-        height: 500px;
-        row-gap: 5px;
+        height: 400px;
+        row-gap: 7px;
         border-radius: 20px 20px 0px 0px;
-        padding: 5px 0px;
+        padding: 15px 0px;
     }
 
     .spans_icons{
@@ -77,7 +92,7 @@
         /*programma*/ 
     .right_side{
         width: 100%;
-        height: 100%;
+        height: 90%;
         border-radius: 0px 0px 20px 20px;
         padding: 35px;
     }
@@ -276,6 +291,7 @@
         row-gap: 4px;
     }
     .right2{
+        width: 20%;
         row-gap: 4px;
         font-size: 13px;
     }
@@ -483,10 +499,18 @@
 @media screen and (min-width: 576px){
 
    
-    /* Footer qismi */
+    .navbar{
+        height: auto;
+    }
     .Nav_Logos{
         width: 25%;
     }
+    .Nav_links{
+        display: flex;
+        align-items: center;
+        row-gap: 20px;
+    }
+
     .Nav_Logos img{
         width: 18px;
         height: 18px;
@@ -498,7 +522,10 @@
     .footer_info{
         font-size: 14px;
         padding: 40px;
+        height: auto;
+        padding: 15px 40px;
     }
+    
 
 
     /* Main container */
@@ -514,9 +541,9 @@
     .left_side{
         width:100%;
         height: 500px;
-        row-gap: 5px;
+        row-gap: 7px;
         border-radius: 20px 20px 0px 0px;
-        padding: 5px 0px;
+        padding: 12px 0px;
     }
 
     .spans_icons{
@@ -757,6 +784,7 @@
     .right2{
         row-gap: 4px;
         font-size: 13px;
+
     }
 
 
@@ -962,8 +990,8 @@
     
     /* Footer qismi */
     .Nav_Logos img{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
     .footer_Image{
         width: 74px;
@@ -1211,14 +1239,14 @@
     }
 
     .history_information{
-        height: 85px;
+        height: 80px;
         padding: 5px 12px;
     }
     .history_information:hover{
         height: 90px;
     }
     .H_info_left{
-        width: 60%;
+        width: 50%;
         column-gap: 0px;
     }
     .F_box{
@@ -1231,10 +1259,10 @@
         font-size: 24px;
     }
     .F_number{
-        width: 80%;
-        height: 70px;
+        width: 70%;
+        height: auto;
         font-size: 18px;
-        padding: 0px 20px;
+        padding: 0px 0px 0px 0px;
         row-gap: 5px;
     }
     .F_number_span{
@@ -1242,18 +1270,22 @@
         margin-left: 5px;
     }
     .H_info_right{
-        width: 35%;
+        width: 45%;
     }
     .right1{
         width: 68%;
         letter-spacing: 1px;
-        font-size: 17px;
-        row-gap: 0px;
+        display: grid;
+        font-size: 14px;
+        row-gap: 5px;
     }
     .right2{
+        width: 30%;
         row-gap: 5px;
+        display: grid;
         font-size: 14px;
     }
+ 
 
 
 
