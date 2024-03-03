@@ -277,7 +277,7 @@ function Main() {
                                             </div>
                                             <div className="F_number">
                                                 <p className="m-1 f_Box_bold">- 3000 F</p>
-                                                <p >Перевод средств  <span className="F_number_span" style={{fontSize:"14px", color:"gray", }}>на карту карту 5356***</span></p>
+                                                <p >Перевод средств  <span className="F_number_span" style={{color:"gray", }}>на карту карту 5356***</span></p>
                                             </div>         
                                         </div>
 
@@ -322,7 +322,7 @@ function Main() {
                                             </div>
                                             <div className="F_number">
                                                 <p className="m-1 f_Box_bold">- 3000 F</p>
-                                                <p >Перевод средств  <span className="F_number_span" style={{fontSize:"14px", color:"gray"}}>на карту карту 5356***</span></p>
+                                                <p >Перевод средств  <span className="F_number_span" style={{color:"gray"}}>на карту карту 5356***</span></p>
                                             </div>         
                                         </div>
                                         <div className="H_info_right">
@@ -367,7 +367,7 @@ function Main() {
                                             </div>
                                             <div className="F_number">
                                                 <p className="m-1 f_Box_bold">- 3000 F</p>
-                                                <p >Перевод средств  <span className="F_number_span" style={{fontSize:"14px", color:"gray",}}>на карту карту 5356***</span></p>
+                                                <p >Перевод средств  <span className="F_number_span" style={{color:"gray",}}>на карту карту 5356***</span></p>
                                             </div>         
                                         </div>
 
