@@ -1494,9 +1494,12 @@
     .Registration_container{
         padding: 130px 0px;
     }
+    .registration_box{
+        height: auto;
+    }
     .Reg_form{
     width: 100%;
-    height: 88%;
+    height: 95%;
     background-color: #EDF2FF;
     border-radius: 0px 0px 20px 20px;
     padding: 25px 90px 10px 90px;
