@@ -11,18 +11,19 @@ import Registration from './Project_comonents/Registration';
 
 
 
-function App() {
+
+function App(){
   return ( 
     <>
-    <BrowserRouter>
-        <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/Main' element={<Main/>}/>
-          <Route path="/Registration" element={<Registration/>}/>
-        </Routes>
-        <Footer/>
-    </BrowserRouter>
+      <BrowserRouter>
+          <Navbar/>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/Main' element={<Main/>}/>
+            <Route path="/Registration" element={<Registration/>}/>
+          </Routes>
+          <Footer/>
+      </BrowserRouter>
     </>
    );
 }

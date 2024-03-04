@@ -60,8 +60,6 @@ function Main() {
 
 
 
-
-
     return ( 
         <div className="Main_container">
             <div className="left_side">
@@ -230,19 +228,24 @@ function Main() {
                         <div className="Balance_History_box">
                             <p className="m-0 History_title">История транзакций</p>
                             <form className="select_box">
-                                    <select className="select_child">
+
+                                <div className="select_child">
+                                    <select>
                                         <option value="volvo">По сумме</option>
                                         <option value="saab">Saab</option>
                                         <option value="opel">Opel</option>
                                         <option value="audi">Audi</option>
                                     </select>
+                                </div>
                                 
-                                    <select className="select_child">
+                                <div className="select_child">
+                                    <select>
                                         <option value="volvo">По дате</option>
                                         <option value="saab">Saab</option>
                                         <option value="opel">Opel</option>
                                         <option value="audi">Audi</option>
                                     </select>
+                                </div>
                             </form>
 
 

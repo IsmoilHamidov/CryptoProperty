@@ -25,17 +25,19 @@ function Navbar() {
                         <Link to="/Main">Главная</Link>
                     </li>
                     <li>
-                        <Link to="/Sena">Цена монеты</Link>
+                        <a href="#Sena">Цена монеты</a>
                     </li>
                     <li>
-                        <Link to="/Ispolzovat">Как использовать</Link>
+                        <a href="#Ispolzovat">Как использовать</a>
                     </li>
                     <li>
-                        <Link to="/About_us">О нас</Link>
+                        <a href="#About_us">О нас</a>
                     </li>
                     <li>
-                        <Link to="/Preimushestva">Преимущества</Link>
+                        <a href="#Preimushestva">Преимущества</a>
                     </li>
+
+
                     <li className="Nav_Logos">
                         <a href="#"><img src={telegram} alt="" /></a>
                         <a href="#"><img src={facebook} alt="" /></a>

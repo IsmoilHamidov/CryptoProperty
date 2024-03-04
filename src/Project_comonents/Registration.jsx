@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import facebook from '../images/facebook_icon_130940 4.png';
 import google from '../images/google.png';
 
 
 
 function Registration() {
+
+    const [Ppassword, setPassword] = useState('')
+    const [ ConfirmPassword, setConfirmPassword] = useState('')
+    const [value, setValue] = useState('')
+
+    
+    function checkPassword(a) {
+        a.preventDefault()
+        let term = /^[a-zA-Z0-9]{4,8}$/gm
+
+    }
+
 
     return ( 
         <>
@@ -20,18 +32,20 @@ function Registration() {
                                 <input type="text" placeholder="Имя"/>
                             </div>
                             <div className="reg_inputs">
-                                <input type="password"  placeholder="Пароль"/>
+                                <input type="password"  placeholder="Пароль" id="Password"/>
                                 <i class="fa-regular fa-eye-slash"></i>
                             </div>
                             <div className="reg_inputs">
-                                <input type="password"  placeholder="Повторить пароль"/>
+                                <input type="password"  placeholder="Повторить пароль" id="confirmPassword"/>
                                 <i class="fa-regular fa-eye-slash"></i>
                             </div>
                                
                             <input type="checkbox" id="check_input"/>
                             <label htmlFor="check_input" className="mx-2">Запомнить меня</label>
                                 
-                            <button>Подтвердить</button>
+                            <p id="message" ></p>
+                            <button onClick={checkPassword()}>Подтвердить</button>
+
                             <a href="#" className="Reg_a">
                                 <img src={facebook} alt="" />
                                 <img src={google} alt="" />

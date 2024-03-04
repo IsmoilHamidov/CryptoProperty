@@ -54,11 +54,10 @@ function Home() {
 
 
 
-
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 col-lg-6 first_left">
-                        <h3>Текущая ставка токена <br></br>(Binance)</h3>
+                        <section className="col-sm-12 col-lg-6 first_left"      id="Sena">
+                            <h3>Текущая ставка токена <br></br>(Binance)</h3>
                                 <div action="" className="first_left_form ">
                                         <div className="Capital_F">
                                             <p>F</p>
@@ -68,7 +67,7 @@ function Home() {
                                             <p>+211%</p>
                                         </div>
                                 </div>    
-                        </div>
+                        </section>
                         <div className="col-sm-12 col-lg-6 first_right">
                             <div className="Realniy_token">
                                <h3>Реальный токен </h3> 
@@ -83,10 +82,11 @@ function Home() {
                 </div>
 
 
+
             <div className="Next_container">
                     <div className="container">
                         <div className="row">
-                            <div className="col-sm-12 col-lg-10  third_top">
+                            <section className="col-sm-12 col-lg-10  third_top"    id="Ispolzovat">
                                     <div className="third_top_children">
                                         <p>Регистрация</p>
                                             <div>
@@ -127,8 +127,11 @@ function Home() {
                                             </div>
                                         <h5> Шаг 5</h5>
                                     </div>
-                            </div>
-                            <div className="col-12 third_bottom" name="About_us">
+                            </section>
+
+
+
+                            <section className="col-12 third_bottom"       id="About_us">
                                     <h2>О нас</h2>
                                 <div className="third_bottom_child ">
                                     <div className="third_bottom_left">
@@ -140,7 +143,7 @@ function Home() {
                                         <img src={third_bottom_right} alt="" />
                                     </div>
                                 </div>
-                            </div>
+                            </section>
 
                         </div>
                     </div>
@@ -148,7 +151,7 @@ function Home() {
 
                     <div className="container">
                         <div className="row">
-                            <div className="fourth_container col-12">
+                            <section className="fourth_container col-12"    id="Preimushestva">
                                <h2>Преимущества использования нашего сервиса</h2>
                                 <div className="fourth_children">
                                     <div className="fourth_children_data">
@@ -172,9 +175,10 @@ function Home() {
                                     </div>
                                 </div>
 
-                            </div>
+                            </section>
                         </div>
                     </div>
+
 
                     <div className="container">
                         <div className="row">
