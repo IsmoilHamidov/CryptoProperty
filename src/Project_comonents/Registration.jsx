@@ -1,43 +1,33 @@
 import React, { useState } from "react";
 import facebook from '../images/facebook_icon_130940 4.png';
 import google from '../images/google.png';
-
+import Reg_Validation from "./Reg_Validation"
 
 
 function Registration() {
 
-    const [Password, setPassword] = useState('')
-    const [ ConfirmPassword, setConfirmPassword] = useState('')
-    const [value, setValue] = useState('')
-    let text = document.getElementById('message')
+   
+    const [values, setValues] = useState({
+            email: '',
+            Fullname:'',
+            password: '',
+            confirm_password: '' 
+        })
+
+    const [errors, setErrors] = useState({})
 
 
-    function Function_Password(event) {
-        event.preventDefault()
-        let term = /^[a-zA-Z0-9]{4,8}$/gm
-
-        if(term.test(Password + ConfirmPassword)){
-            if(Password ===  ConfirmPassword){
-                setValue("Pasword matched")
-                text.style.color = "green"
-            }
-        }
-        else{
-            setValue("Password didn't match. Please include according to [a-zA-Z0-9]{4,8}")
-            text.style.color = "red"
-        }
-    }
-
-    function FirstInput(f) {
-        setPassword(f.target.value)
-    }
-    function SecondInput(s) {
-        setConfirmPassword(s.target.value)
+    const HandleInput = (e) => {
+        setValues({...values, [e.target.name]: [e.target.value]})
     }
 
 
+    function HandleFunction(e) {
+        e.preventDefault()
+        setErrors(Reg_Validation(values))
+    }
+ 
 
-    
 
     return ( 
         <>
@@ -45,29 +35,36 @@ function Registration() {
                 <div className="row">
                     <div className="col-sm-12 col-lg-5 registration_box">
                         <div className="Reg_title">Регистрация </div>
-                        <form action="" className="Reg_form" onSubmit={Function_Password}>
-                            <div className="reg_inputs">
-                                <input type="email" placeholder="Почта"/>
-                            </div>
-                            <div className="reg_inputs">
-                                <input type="text" placeholder="Имя"/>
-                            </div>
+                        <form action="" className="Reg_form" onSubmit={HandleFunction}>
+                                <div className="reg_inputs">
+                                <input type="email" name="email" 
+                                        placeholder="Почта" onChange={HandleInput}/>
+                                </div> 
+                                    {errors.email && <p style={{color: "red"}} className="my-1">{errors.email} </p>}
 
                                 <div className="reg_inputs">
-                                    <input type="text"  placeholder="Пароль" id="Password" onChange={FirstInput}/>
-                                    <i class="fa-regular fa-eye-slash"></i>
+                                    <input type="text" placeholder="Имя" name="Fullname" onChange={HandleInput}/>
                                 </div>
+                                    {errors.Fullname && <p style={{color: "red"}} className="my-1">{errors.Fullname}</p>}
+
                                 <div className="reg_inputs">
-                                    <input type="text"  placeholder="Повторить пароль" id="confirmPassword" onChange={SecondInput}/>
+                                    <input type="password"  placeholder="Пароль" name="password" id="Password" onChange={HandleInput}/>
                                     <i class="fa-regular fa-eye-slash"></i>
                                 </div>
+                                    {errors.password && <p style={{color: "red"}} className="my-1">{errors.password}</p>}
+
+                                <div className="reg_inputs">
+                                    <input type="password"  placeholder="Повторить пароль" name="confirm_password" id="confirmPassword" onChange={HandleInput}/>
+                                    <i class="fa-regular fa-eye-slash"></i>
+                                </div>
+                                     {errors.confirm_password && <p style={{color: "red"}} className="my-1">{errors.confirm_password}</p>}
 
 
                                 <input type="checkbox" id="check_input"/>
                                 <label htmlFor="check_input" className="mx-2">Запомнить меня</label>
                                     
-                                <p className="my-3 fs-6" id="message">{value}</p>
-                                <button >Подтвердить</button>
+                                {/* <p className="my-3 fs-6" id="message">{value}</p> */}
+                                <button type="submit">Подтвердить</button>
 
                                 <a href="#" className="Reg_a">
                                     <img src={facebook} alt="" />

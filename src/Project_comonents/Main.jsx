@@ -64,7 +64,9 @@ function Main() {
         <div className="Main_container">
             <div className="left_side">
                 <div className="imageLogo">
-                    <img src={logoimage} alt="" style={{width:"74px", height:"74px"}} />
+                    <a href="/">
+                        <img src={logoimage} alt="" style={{width:"74px", height:"74px"}} />
+                    </a>
                 </div>
 
                 <a href="#" style={{textDecoration:"none"}}>
