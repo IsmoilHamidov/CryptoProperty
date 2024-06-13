@@ -5,35 +5,40 @@
     .navbar{
         height: auto;
     }
-    .Nav_Logos{
-        width: 25%;
-    }
     .navbar img{
         width: 50px;
         height: 50px;
     }
-  
+    
     .Nav_links{
         display: flex;
         align-items: center;
         row-gap: 15px;
-
+        
     }
-
+    .Nav_Logos{
+        width: 50%;
+    }
     .Nav_Logos img{
-        width: 18px;
-        height: 18px;
+        width: 20px;
+        height: 20px;
     }
    
+    .footer_info{
+        font-size: 12px;
+        height: auto;
+        padding: 15px 10px;
+    }
+    .footer_info .Nav_Logos{
+        width: 26%;
+    }
+    .footer_info .Nav_Logos img{
+        width: 14px;
+        height: 14px;
+    }
     .footer_Image{
         width: 50px;
         height: 50px;
-    }
-    .footer_info{
-        font-size: 14px;
-        padding: 40px;
-        height: auto;
-        padding: 15px 40px;
     }
 
 
@@ -294,50 +299,64 @@
     }
     /* Home page responsiv */
     .first_left{
-        height: 400px;
+        padding: 20px !important;
+        height: auto;
     }
     .first_left h3{
-        font-size: 33px;
+        font-size: 27px;
+    }
+    .first_left p{
+        font-size: 17px;
+    }
+    .first_left_form{
+        margin: 20px 0px;
     }
     .first_left_form button{
-        height: 50px;
-        font-size: 20px;
+        width: 47%;
+        height: 45px;
+        font-size: 17px;
     }
     .first_right{
-        height: 400px;
+        height: auto;
     }
     .first_right img{
-        height: 80%;
+        height: 90%;
+        object-fit: contain;
     }
     
     .Capital_F{
         text-align: center;
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 140px;
     }
     .Capital_F p{
-        font-size: 135px;
+        font-size: 105px;
     }
+ 
     .Fiat p{
         font-weight: 700;
-        font-size: 45px;
-        line-height: 42px;
+        font-size: 38px;
+        line-height: 38px;
+        margin: 10px;
     }
     .Realniy_token{
         width:100%;
-        height: 90%;
+        height: auto;
     }
     .Realniy_token p{
-        font-size: 19px;
+        font-size: 17px;
     }
     .Realniy_token button{
         width: 100%;
-        height: 60px;
-        font-size: 19px;
+        height: 50px;
+        font-size: 17px;
     }
     
+    .Home_container{
+        padding: 0px 20px;
+    }
     .Next_container{
-        height: 4500px;
+        height: 5200px;
         padding: 20px;
     }
     .third_top{
@@ -349,35 +368,39 @@
         width: 100%;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
+        align-items: baseline;
     }
     .third_top_children p{
-        width: 25%;
+        width: 30%;
         font-weight: 400;
+        font-size: 14px;
+    }
+    .third_top_children h5{
+        font-size: 17px;
     }
     .third_top_children div{
-        width: 35%;
-        height: 70px;
+        width: 32%;
+        height: 60px;
         margin-top: 20px;
     }
     .third_top_img2{
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
     }
     .third_bottom{
-        padding: 60px 0px;
+        padding: 30px 0px;
     }
     .third_bottom_child{
         display: grid;
         row-gap: 25px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .third_bottom_left{
         width: 100%;
         height: 50%;
     }
     .third_bottom_left p{
-        font-size: 16px;
+        font-size: 15px;
         line-height: 30px;
     }
     .third_bottom_right{
@@ -385,16 +408,16 @@
         height: 50%;
     }
     .third_bottom_right img{
-        width: 250px;
-        height: 200px;
+        width: 80%;
+        object-fit: contain;
     }
     .fourth_container{
         width: 100%;
-        padding: 30px;
+        padding: 10px 0px;
         height: auto;
     }
     .fourth_container h2{
-        font-size: 26px;
+        font-size: 25px;
     }
     .fourth_children{
         width: 100%;
@@ -406,75 +429,77 @@
         width: 100%;
     }
     .fourth_children_data img{
-        width: 110px;
-        height: 110px;
+        width: 80px;
+        height: 80px;
     }
     .fourth_children_data p{
-        font-size: 17px;
+        font-size: 15px;
     }
     .Fifth_container{
         width: 100%;
         padding: 30px;
-        height: 800px;
-        margin-bottom: 30px ;
+        height: 900px;
     }
     .Fifth_container h2{
-        font-size: 33px;
+        font-size: 27px;
     }
     .Fifth_container p{
-        font-size: 19px;
+        font-size: 17px;
+        margin: 0px;
     }
     .Fifth_container img{
         width: 90%;
-        height: 270px;
+        height: 200px;
         bottom: 45%;
+        object-fit: contain;
     }
     .position_Text{
-        width: 100%;
+        width: 90%;
         position: absolute;
+        height: auto;
         bottom: 2%;
     }
     
     .sixth_container{
-        padding: 60px 0px;
+        padding: 10px 0px;
     }
-    .sixth_container p{
-        font-size: 19px;
-    }
-    .Column1{
-        width: 33%;
-    }
-    .sixth_img1_5{
-        width: 175px;
-        height: 190px;
-        position: absolute;
-        top: -2%;
-        z-index: -1;
-    }
-    
-    .buildings{
-        width: 170px;
-        height: 120px;
-    }
-    .sixth_line{
-        width: 150px;
-        height: 50px;
-    }
-    .Column2{
-        width: 33%;
-    }
-    .Column3{
-        width: 33%;
-        height: 40%;
-    }
-    .sixth_link{
-        width: 89%;
-        height: 450px;
-        position: absolute;
-        bottom: 28%;
-        z-index: 1;
-      }
-    
+        /* .sixth_container p{
+            font-size: 19px;
+        }
+        .Column1{
+            width: 33%;
+        }
+        .sixth_img1_5{
+            width: 175px;
+            height: 190px;
+            position: absolute;
+            top: -2%;
+            z-index: -1;
+        }
+        
+        .buildings{
+            width: 170px;
+            height: 120px;
+        }
+        .sixth_line{
+            width: 150px;
+            height: 50px;
+        }
+        .Column2{
+            width: 33%;
+        }
+        .Column3{
+            width: 33%;
+            height: 40%;
+        }
+        .sixth_link{
+            width: 89%;
+            height: 450px;
+            position: absolute;
+            bottom: 28%;
+            z-index: 1;
+        }
+        */
 
 
       /* Registration */
@@ -834,7 +859,7 @@
     }
 
     .Next_container{
-        height: 4500px;
+        height: 5000px;
         padding: 20px;
     }
     .third_top{
@@ -933,7 +958,7 @@
         bottom: 2%;
     }
 
-    .sixth_container{
+    /* .sixth_container{
         padding: 60px 0px;
     }
     .sixth_container p{
@@ -971,7 +996,7 @@
         position: absolute;
         bottom: 28%;
         z-index: 1;
-    }
+    } */
 
     /* Registration */
     .Registration_container{

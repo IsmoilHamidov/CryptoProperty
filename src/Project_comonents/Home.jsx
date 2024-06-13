@@ -191,41 +191,63 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="conatainer">
-                        <div className="row">
+
                             <div className="sixth_container">
-                                <div className="Column1">
-                                    <img src={sixth_img1} className="buildings" alt="" />
+                                <div className="Column1 d-none d-md-grid">
+                                    <img src={sixth_img1} className="buildings" alt="image" />
                                     <p>5</p>
-                                    <img src={sixth_line} alt="" className="sixth_line"/>
+                                    <img src={sixth_line} alt="image" className="sixth_line"/>
                                     <p>Вывод прибыли</p>
-                                    <img src={sixth_img5} className="buildings changedBuild1" alt="" />
+                                    <img src={sixth_img5} className="buildings changedBuild1" alt="image" />
                                     <p>1</p>
-                                    <img src={sixth_line} alt="" className="sixth_line" />
+                                    <img src={sixth_line} alt="image" className="sixth_line" />
                                     <p>регистрация</p>
-                                    <img src={sixth_img1_5} alt="" className="sixth_img1_5" />
+                                    <img src={sixth_img1_5} alt="image" className="sixth_img1_5" />
                                 </div>
-                                <div className="Column2 ">
-                                    <img src={sixth_img2} alt="" className="buildings"/>
+                                <div className="Column2 d-none d-md-grid">
+                                    <img src={sixth_img2} alt="image" className="buildings"/>
                                     <p>4</p>
-                                    <img src={sixth_line} alt="" className="sixth_line" />
+                                    <img src={sixth_line} alt="image" className="sixth_line" />
                                     <p>Продажа монет</p>
-                                    <img src={sixth_img4} alt="" className="buildings changedBuild2"/>
+                                    <img src={sixth_img4} alt="image" className="buildings changedBuild2"/>
                                     <p>2</p>
-                                    <img src={sixth_line} alt="" className="sixth_line" />
+                                    <img src={sixth_line} alt="image" className="sixth_line" />
                                     <p>Пополнение счета</p>
                                 </div>
-                                <div className="Column3">
-                                    <img src={sixth_img3} alt="" className="buildings" />
+                                <div className="Column3 d-none d-md-grid">
+                                    <img src={sixth_img3} alt="image" className="buildings" />
                                     <p>3</p>
-                                    <img src={sixth_line} alt="" className="sixth_line" />
+                                    <img src={sixth_line} alt="image" className="sixth_line" />
                                     <p>Отслеживание по графику</p>
                                 </div>
-                                <img src={sixth_link} alt="" className="sixth_link"/>
+                                <img src={sixth_link} alt="link_image" className="sixth_link d-none d-md-block"/>
+
+
+                                <div className="Set_columns d-flex d-md-none">
+                                    <img src={sixth_img5} className="buildings changedBuild1" alt="image" />
+                                    <p>1</p>
+                                    <img src={sixth_line} alt="image" className="sixth_line" />
+                                    <p>регистрация</p>
+                                    <img src={sixth_img4} alt="image" className="buildings changedBuild2"/>
+                                    <p>2</p>
+                                    <img src={sixth_line} alt="image" className="sixth_line" />
+                                    <p>Пополнение счета</p>
+                                    <img src={sixth_img3} alt="image" className="buildings" />
+                                    <p>3</p>
+                                    <img src={sixth_line} alt="image" className="sixth_line" />
+                                    <p>Отслеживание по графику</p>
+                                    <img src={sixth_img2} alt="image" className="buildings"/>
+                                    <p>4</p>
+                                    <img src={sixth_line} alt="image" className="sixth_line" />
+                                    <p>Продажа монет</p>
+                                    <img src={sixth_img1} className="buildings" alt="image" />
+                                    <p>5</p>
+                                    <img src={sixth_line} alt="image" className="sixth_line"/>
+                                    <p>Вывод прибыли</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-            </div>
+           
         
         </>
      );

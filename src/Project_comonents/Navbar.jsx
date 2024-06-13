@@ -37,7 +37,7 @@ function Navbar() {
                         <a href="#Preimushestva">Преимущества</a>
                     </li>
 
-
+                    
                     <li className="Nav_Logos">
                         <a href="#"><img src={telegram} alt="" /></a>
                         <a href="#"><img src={facebook} alt="" /></a>

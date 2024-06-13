@@ -26,6 +26,9 @@ function Reg_Validation(values) {
         error.confirm_password = "Password not match"
     }
 
+
+
+
     return error;
 }
 

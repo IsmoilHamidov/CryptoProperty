@@ -1176,7 +1176,7 @@ html{
 }
 .Fifth_container p{
   font-size: 21px;
-  line-height: 30px;
+  line-height: 27px;
   margin-top: 20px;
 }
 .Fifth_container img{
@@ -1188,12 +1188,14 @@ html{
 }
 .position_Text{
   width: 90%;
+  height: auto;
   position: absolute;
   bottom: 0;
 }
 
 /* sixth */
 .sixth_container{
+  width: 100%;
   height: auto;
   padding: 140px 0px;
   display: flex;
@@ -1203,7 +1205,8 @@ html{
 }
 .sixth_container p{
   font-weight: 500;
-  font-size: 25px;
+  font-size: 22px;
+  margin: 5px 0px 0px 0px;
 }
 .Column1{
   width: 30%;
@@ -1257,6 +1260,27 @@ html{
   bottom: 28%;
   z-index: 1;
 }
+
+
+.Set_columns{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Set_columns .buildings{
+  margin: 10px 0px 0px 0px;
+  width: 60%;
+  height: 180px;
+  object-fit: contain;
+}
+.Set_columns .buildings p{
+  margin: 0px;
+  font-size: 22px;
+}
+
+
 
 /* registartion */
 
