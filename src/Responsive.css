@@ -17,11 +17,11 @@
         
     }
     .Nav_Logos{
-        width: 50%;
+        width: 25%;
     }
     .Nav_Logos img{
-        width: 20px;
-        height: 20px;
+        width: 19px;
+        height: 19px;
     }
    
     .footer_info{
@@ -538,8 +538,15 @@
     }
 
     .Nav_Logos img{
-        width: 18px;
-        height: 18px;
+        width: 19px;
+        height: 19px;
+    }
+    .footer_info .Nav_Logos{
+        width: 20%;
+    }
+    .footer_info .Nav_Logos img{
+        width: 15px;
+        height: 15px;
     }
     .footer_Image{
         width: 50px;
@@ -830,6 +837,7 @@
     }
     .first_right img{
         height: 80%;
+        object-fit: contain;
     }
 
     .Capital_F{
@@ -1016,7 +1024,7 @@
 @media screen and (min-width: 768px){
 
     .Nav_Logos{
-        width: 15%;
+        width: 20%;
     }
     
     /* Footer qismi */
@@ -1031,6 +1039,13 @@
     .footer_info{
         font-size: 18px;
         padding: 15px 70px;
+    }
+    .footer_info .Nav_Logos{
+        width: 17%;
+    }
+    .footer_info .Nav_Logos img{
+        width: 18px;
+        height: 18px;
     }
 
     /* Main container 768 */
@@ -1327,7 +1342,7 @@
 
        /* Home page responsiv */
     .first_left{
-        height: 550px;
+        height: 450px;
     }
     .first_left h3{
         font-size: 39px;
@@ -1340,16 +1355,17 @@
         height: 550px;
     }
     .first_right img{
-        height: 90%;
+        height: 70%;
+        object-fit: contain;
     }
 
     .Capital_F{
         text-align: start;
-        width: 44%;
-        height: 280px;
+        width: 220px;
+        height: 220px;
     }
     .Capital_F p{
-        font-size: 185px;
+        font-size: 180px;
     }
     .Fiat p{
         font-weight: 700;
@@ -1375,12 +1391,13 @@
         padding: 60px;
     }
     .third_top{
-        height: 270px;
+        height: auto;
         display: flex;
+        justify-content: space-between;
     }
     .third_top_children{
         display: flex;
-        width: 20%;
+        width: 19%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1390,21 +1407,22 @@
 
     .third_top_children p{
         width: auto;
-        font-size: 15px;
+        height: 40px;
+        font-size: 14px;
         font-weight: 500;
     }
     .third_top_children div{
         width: 100%;
-        height: 135px;
+        height: 90px;
         margin-top: 0px;
     }
     .third_top_img2{
-        width: 55px;
-        height: 55px;
+        width: 40px;
+        height: 40px;
     }
 
     .third_bottom{
-        padding: 90px 0px;
+        padding: 60px 0px;
     }
     .third_bottom_child{
         height: 75%;
@@ -1417,56 +1435,64 @@
         height: 100%;
     }
     .third_bottom_left p{
-        font-size: 17px;
+        font-size: 15px;
         line-height: 25px;
     }
     .third_bottom_right{
         width: 45%;
         height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .third_bottom_right img{
-        width: 310px;
-        height: 260px;
+        width: 90%;
+        object-fit: contain;
     }
     .fourth_container{
-        height: 600px;
+        height: auto;
         padding: 20px 0px;
     }
     .fourth_container h2{
-        font-size: 32px;
+        font-size: 28px;
     }
     .fourth_children{
         width: 100%;
-        height: 45%;
+        height: auto;
         display: flex;
         justify-content: space-between;
         row-gap: 0px;
     }
     .fourth_children_data{
-        width: 45%;
+        width: 47%;
     }
     .fourth_children_data img{
-        width: 170px;
-        height: 170px;
+        width: 63%;
+        height: 37%;
+        object-fit: contain;
     }
     .fourth_children_data p{
-        font-size: 19px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0px;
     }
     .Fifth_container{
         width: 750px;
-        padding: 60px 0px;
-        height: 800px;
-        margin-bottom: 70px ;
+        padding: 0px;
+        height: 700px;
+        margin-bottom: 70px;
     }
     .Fifth_container h2{
-        font-size: 37px;
+        font-size: 30px;
     }
     .Fifth_container p{
-        font-size: 21px;
+        font-size: 18px;
+        margin: 10px 0px;
     }
     .Fifth_container img{
-        width: 800px;
-        height: 420px;
+        width: 75%;
+        height: 380px;
+        object-fit: contain;
         bottom: 30%;
     }
     .position_Text{
@@ -1476,29 +1502,30 @@
     }
 
     .sixth_container{
-        padding: 140px 0px;
+        padding: 50px 0px;
     }
     .sixth_container p{
-        font-size: 25px;
+        font-size: 17px;
     }
     .Column1{
         width: 30%;
     }
     .sixth_img1_5{
-        width: 210px;
-        height: 250px;
+        width: 18%;
+        height: 140px;
         position: absolute;
         top: 2%;
         z-index: -1;
     }
 
     .buildings{
-        width: 220px;
-        height: 140px;
+        width: 80%;
+        height: 150px;
+        object-fit: contain;
     }
     .sixth_line{
-        width: 250px;
-        height: 60px;
+        width: 70%;
+        height: 50px;
     }
     .Column2{
         width: 30%;
@@ -1508,8 +1535,9 @@
         height: 45%;
     }
     .sixth_link{
-        width: 750px;
-        height: 550px;
+        width: 100%;
+        height: 460px;
+        object-fit: contain;
         position: absolute;
         bottom: 28%;
         z-index: 1;
@@ -1529,7 +1557,549 @@
     border-radius: 0px 0px 20px 20px;
     padding: 25px 90px 10px 90px;
     }
+}
+    
 
+
+@media screen and (min-width: 992px){
+
+    .Nav_Logos{
+        width: 15%;
+    }
+    
+    /* Footer qismi */
+    .Nav_Logos img{
+        width: 25px;
+        height: 25px;
+    }
+    .footer_Image{
+        width: 74px;
+        height: 74px;
+    }
+    .footer_info{
+        font-size: 18px;
+        padding: 15px 70px;
+    }
+    .footer_info .Nav_Logos{
+        width: 13%;
+    }
+    .footer_info .Nav_Logos img{
+        width: 23px;
+        height: 23px;
+    }
+
+    /* Main container 768 */
+     .Main_container{
+        width: 97%;
+        height: 1100px;
+        display: flex;
+        flex-direction: row;
+        padding: 30px 20px 30px 0px;
+    }
+
+    .left_side{
+        width:25%;
+        height: 100%;
+        row-gap: 10px;
+        border-radius: 20px 0px 0px 20px;
+        padding: 0px;
+    }
+
+    .spans_icons{
+        padding: 0px 20px;
+        width: 100%;
+        height : 65px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .imageLogo{
+        display: flex;
+    }
+    .main_logos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        column-gap: 0px;
+        align-items: center;
+        padding: 0px 20px;
+        bottom: 13%;
+
+    }
+    .main_logos img{
+        width: 30px;
+        height: 30px;
+    }
+    .Vixod{
+        bottom: 6%;
+    }
+
+    /*right side */
+    .right_side{
+        width: 74.5%;
+        height: 100%;
+        border-radius: 20px;
+        padding: 10px 65px;
+    }
+        
+    .Programma_container{
+        width: 100%;
+        display: grid;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .Account_box{
+        width: 570px;
+        padding: 25px;
+        font-size: 20px;
+        line-height: 34.8px;
+        margin: 55px 0px;
+    }
+
+    .A_child1{
+        justify-content: space-evenly;
+        width: 50%;
+    }
+    .A_child2{
+        display: flex;
+        flex-direction: row;
+        font-size: 39px;
+        row-gap: 0px;
+        column-gap: 15px;
+    }
+    .Link_box{
+        width: 100%;
+        height: auto;
+        padding: 50px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .Link_box h2{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .link_copy{
+        height: auto;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link_copy a{
+        font-size: 25px;
+        word-wrap: break-word;
+    }
+    .Link_box p{
+        width: 75%;
+        font-size: 23px;
+    }
+
+        /* Settings */
+    
+     .FullName_box{
+        width: 100%;
+        height: 186px;
+      }
+      
+      .FullName_box img{
+        width: 102px;
+        height: 102px;
+      }
+      
+      .FullName_box p{
+        font-size: 40px;
+        line-height: 52.73px;
+      }
+      .changeName_box{
+        width: 100%;
+        height: 220px;
+        margin: 40px 0px;
+        row-gap: 5px;
+        padding: 20px;
+      }
+      .changePassword_box{
+        height: 330px;
+        padding: 30px;
+        row-gap: 20px;
+      }
+      .inputIcons{
+        width: 415px;
+      }
+      .changePassword_box button{
+        width: 415px;
+      }
+
+
+       /* панель */
+
+    .Cash_box{
+        width: 100%;
+        height: 140px;
+        font-size: 24px;
+        margin: 30px 0px;
+        padding: 10px 20px;
+    }
+    .Buying_box{
+        width: 100%;
+        height: 140px;
+        margin: 30px 0px;
+        padding: 0px;
+    }
+    .Buying_box button{
+        width: 40%;
+        height: 50px;
+        font-size: 22px;
+        font-size: 20px;
+    }
+    .Chart_box{
+        height: 670px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: 10px 0px;
+    }
+    .recharts{
+        height: 90%;
+    }
+
+      /* Balance */
+      .Balance_holder{
+        width: 100%;
+        height: auto;
+        grid-column: 1/6;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    .Main_balance{
+        width: 45%;
+        display: grid;
+        padding: 15px;
+        grid-template-columns: repeat(6, 15%);
+        grid-template-rows: repeat(4, 25%);
+        box-shadow: #CAD6F3 0px 3px 8px 0px;
+        border-radius: 20px;
+    }
+  
+    .Main_balance h2{
+        font-size: 32px;
+    }
+    .balance_text{
+        font-size: 14px;
+        grid-column: 1/5;
+    }   
+    .right_cash img{
+        width: 47px;
+        height: 47px;
+    }
+    .right_cash p{
+        font-size: 21px;
+    }
+    .money_icon{
+        max-width: 55px;
+        max-height: 52px;
+    }
+
+
+
+    .Balance_History_box{
+        width: 100%;
+        height: 550px;
+        row-gap: 18px;
+    }
+    .History_title{
+        font-size: 38px;
+    }
+    .select_box{
+        width: 370px;
+        height: 55px;
+        justify-content: space-between;
+    }
+    .select_child{
+        font-size: 19px;
+    }
+
+    .history_information{
+        height: 80px;
+        padding: 5px 12px;
+    }
+    .history_information:hover{
+        height: 90px;
+    }
+    .history_information:hover span{
+        display: inline;
+       margin-left: 5px;
+       font-size: 11px;
+    }
+
+    .H_info_left{
+        width: 50%;
+        column-gap: 0px;
+    }
+    .F_box{
+        width: 55px;
+        height: 50px;
+        font-size: 33px;
+    }
+    .f_Box_bold{
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .F_number{
+        width: 70%;
+        height: auto;
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        row-gap: 5px;
+    }
+    .H_info_right{
+        width: 45%;
+    }
+    .right1{
+        height: 80%;
+        width: 60%;
+        letter-spacing: 0px;
+        display: grid;
+        font-size: 14px;
+    }
+    .right2{
+        height: 80%;
+        width: 40%;
+        row-gap: 5px;
+        display: grid;
+        justify-items: center;
+        font-size: 14px;
+    }
+ 
+
+
+
+
+       /* Home page responsiv */
+    .first_left{
+        height: 500px;
+    }
+    .first_left h3{
+        font-size: 39px;
+    }
+    .first_left_form button{
+        height: 60px;
+        font-size: 22px;
+    }
+    .first_right{
+        height: 550px;
+    }
+    .first_right img{
+        height: 80%;
+        height: 90%;
+        object-fit: contain;
+    }
+
+    .Capital_F{
+        text-align: start;
+        width: 230px;
+        height: 230px;
+    }
+    .Capital_F p{
+        font-size: 175px;
+    }
+    .Fiat p{
+        font-weight: 700;
+        font-size: 61px;
+        line-height: 62px;
+    }
+    .Realniy_token{
+        width: 90%;
+        height: auto;
+    }
+    .Realniy_token p{
+        font-size: 21px;
+    }
+    .Realniy_token button{
+        width: 280px;
+        height: 65px;
+        font-size: 20px;
+    }
+
+    .Next_container{
+        width: 100%;
+        height: 3700px;
+        padding: 60px;
+    }
+    .third_top{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .third_top_children{
+        display: flex;
+        width: 19%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 25px;
+        align-items: center;
+    }
+
+    .third_top_children p{
+        width: auto;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .third_top_children div{
+        width: 83%;
+        height: 100px;
+        margin-top: 0px;
+    }
+    .third_top_img2{
+        width: 50px;
+        height: 50px;
+    }
+
+    .third_bottom{
+        padding: 60px 0px;
+    }
+    .third_bottom_child{
+        height: 75%;
+        margin-top: 70px;
+        display: flex;
+        row-gap: 0px;
+    }
+    .third_bottom_left{
+        width: 55%;
+        height: 100%;
+    }
+    .third_bottom_left p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .third_bottom_right{
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .third_bottom_right img{
+        width: 90%;
+        height: 270px;
+        object-fit: contain;
+    }
+    .fourth_container{
+        height: auto;
+        padding: 20px 0px;
+    }
+    .fourth_container h2{
+        font-size: 30px;
+    }
+    .fourth_children{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        row-gap: 0px;
+    }
+    .fourth_children_data{
+        width: 47%;
+    }
+    .fourth_children_data img{
+        width: 64%;
+        height: 52%;
+        object-fit: contain;
+    }
+    .fourth_children_data p{
+        font-size: 21px;
+        line-height: 30px;
+        margin: 0px;
+    }
+    .Fifth_container{
+        width: 750px;
+        padding: 0px;
+        height: 650px;
+        margin-bottom: 70px;
+    }
+    .Fifth_container h2{
+        font-size: 34px;
+    }
+    .Fifth_container p{
+        font-size: 20px;
+        line-height: 29px;
+        margin: 10px 0px;
+    }
+    .Fifth_container img{
+        width: 75%;
+        height: 380px;
+        object-fit: contain;
+        bottom: 30%;
+    }
+    .position_Text{
+        width: 90%;
+        position: absolute;
+        bottom: 0%;
+    }
+
+    .sixth_container{
+        padding: 60px 0px;
+    }
+    .sixth_container p{
+        font-size: 19px;
+    }
+    .Column1{
+        width: 30%;
+    }
+    .sixth_img1_5{
+        width: 14%;
+        height: 250px;
+        position: absolute;
+        top: -4%;
+        z-index: -1;
+    }
+
+    .buildings{
+        width: 75%;
+        height: 170px;
+        object-fit: contain;
+    }
+    .sixth_line{
+        width: 80%;
+        height: 80px;
+    }
+    .Column2{
+        width: 30%;
+    }
+    .Column3{
+        width: 30%;
+        height: 45%;
+    }
+    .sixth_link{
+        width: 100%;
+        height: 520px;
+        object-fit: contain;
+        position: absolute;
+        bottom: 25%;
+        z-index: 1;
+    }
+
+        /* Registration */
+    .Registration_container{
+        padding: 130px 0px;
+    }
+    .registration_box{
+        height: auto;
+    }
+    .Reg_form{
+    width: 100%;
+    height: 95%;
+    background-color: #EDF2FF;
+    border-radius: 0px 0px 20px 20px;
+    padding: 25px 90px 10px 90px;
+    }
 }
     
 
