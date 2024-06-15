@@ -645,7 +645,7 @@ html{
   grid-column: 5/6;
   grid-row: 1/2;
   font-size: 28px;
-  margin-left: 0px;
+  margin: 0px;
 }
 
 .balance_text{
