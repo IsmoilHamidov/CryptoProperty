@@ -33,17 +33,17 @@ function Registration() {
         <>
             <div className="container-fluid Registration_container">
                 <div className="row">
-                    <div className="col-sm-12 col-lg-5 registration_box">
+                    <div className="col-12 col-md-8 col-xl-5 registration_box">
                         <div className="Reg_title">Регистрация </div>
                         <form action="" className="Reg_form" onSubmit={HandleFunction}>
                                 <div className="reg_inputs">
-                                <input type="email" name="email" 
+                                    <input type="email" name="email" className="w-100" 
                                         placeholder="Почта" onChange={HandleInput}/>
                                 </div> 
                                     {errors.email && <p style={{color: "red"}} className="my-1">{errors.email} </p>}
 
                                 <div className="reg_inputs">
-                                    <input type="text" placeholder="Имя" name="Fullname" onChange={HandleInput}/>
+                                    <input type="text" placeholder="Имя" name="Fullname" onChange={HandleInput} className="w-100"/>
                                 </div>
                                     {errors.Fullname && <p style={{color: "red"}} className="my-1">{errors.Fullname}</p>}
 
