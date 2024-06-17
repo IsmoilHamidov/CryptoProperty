@@ -462,7 +462,6 @@ html{
   row-gap: 15px;
   padding: 20px 50px;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
   font-weight: 500;
 }
 
@@ -486,7 +485,6 @@ html{
   border-radius: 22px;
   background-color: #A790C6;
   border: none;
-  font-size: 20px;
   font-weight: 500;
   line-height: 23.44px;
   color: white;
