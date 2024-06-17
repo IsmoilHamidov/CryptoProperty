@@ -179,7 +179,7 @@ html{
   margin-top: 50px;
   padding: 30px 20px 30px 0px;
   box-shadow: #CAD6F3 0px 2px 6px 0px;
-  border: 2px solid green ;
+  /* border: 2px solid green ; */
 }
 
 .left_side{
@@ -205,7 +205,6 @@ html{
   background-color: #F9FAFD;
   border-radius: 20px;
   box-shadow: #CAD6F399 0px 0px 8px 1px;
-  border: 2px solid red;
 }
 
 .Main_container p{
@@ -329,7 +328,6 @@ html{
   grid-template-columns: repeat(5, 1fr);
   /* grid-template-rows: repeat(3, 0.2fr); */
   row-gap: 75px; 
-  border: 2px solid blue;
 }
 
 .Account_box{
