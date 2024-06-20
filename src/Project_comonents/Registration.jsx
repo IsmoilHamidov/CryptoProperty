@@ -49,13 +49,13 @@ function Registration() {
 
                                 <div className="reg_inputs">
                                     <input type="password"  placeholder="Пароль" name="password" id="Password" onChange={HandleInput}/>
-                                    <i class="fa-regular fa-eye-slash"></i>
+                                    <i className="fa-regular fa-eye-slash"></i>
                                 </div>
                                     {errors.password && <p style={{color: "red"}} className="my-1">{errors.password}</p>}
 
                                 <div className="reg_inputs">
                                     <input type="password"  placeholder="Повторить пароль" name="confirm_password" id="confirmPassword" onChange={HandleInput}/>
-                                    <i class="fa-regular fa-eye-slash"></i>
+                                    <i className="fa-regular fa-eye-slash"></i>
                                 </div>
                                      {errors.confirm_password && <p style={{color: "red"}} className="my-1">{errors.confirm_password}</p>}
 

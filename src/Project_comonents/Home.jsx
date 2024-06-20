@@ -73,7 +73,7 @@ function Home() {
                                <h3>Реальный токен </h3> 
                                <p>Токен это единица учёта, не являющаяся криптовалютой, предназначенная для представления цифрового баланса в некотором активе, иными словами выполняющая функцию «заменителя ценных бумаг» в цифровом мире. </p>
                                <button className="Hover_effected">
-                                    <i class="fa-solid fa-chart-simple mx-2"></i>
+                                    <i className="fa-solid fa-chart-simple mx-2"></i>
                                     <span>Торговать на бирже</span>
                                </button>
                             </div>

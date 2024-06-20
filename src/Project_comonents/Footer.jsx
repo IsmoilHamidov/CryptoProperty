@@ -1,5 +1,4 @@
 import React from "react";
-import footer_img1 from '../images/footer img1.png'
 import nav_img from '../images/nav_image.png';
 import telegram from '../images/telegram.png';
 import facebook from '../images/facebook_icon_130940 4.png';
@@ -12,10 +11,10 @@ function Footer() {
     return ( 
         <> 
 
-            <div class="Footer">
-                <div class="ocean">
-                    <div class="wave"></div>
-                    <div class="wave"></div>
+            <div className="Footer">
+                <div className="ocean">
+                    <div className="wave"></div>
+                    <div className="wave"></div>
                 </div>
 
 

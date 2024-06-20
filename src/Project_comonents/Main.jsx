@@ -74,28 +74,28 @@ function Main() {
 
                 <a href="#" style={{textDecoration:"none"}}>
                     <button className="spans_icons" onClick={()=>updateToggle(1)}  id="balance_press">
-                        <i class="fa-solid fa-dollar" style={{padding:"5px 10px"}}></i>
+                        <i className="fa-solid fa-dollar" style={{padding:"5px 10px"}}></i>
                         Баланс
                     </button>
                 </a>
 
                 <a href="#" style={{textDecoration:"none"}}>
                     <button className="spans_icons" onClick={()=>updateToggle(2)}>
-                         <i class="fa-solid fa-chart-simple"></i>
+                         <i className="fa-solid fa-chart-simple"></i>
                         Торговая панель
                     </button>
                 </a>
 
                 <a href="#" style={{textDecoration:"none"}}>
                     <button className="spans_icons" onClick={()=>updateToggle(3)}>
-                        <i class="fa-solid fa-gear"></i>    
+                        <i className="fa-solid fa-gear"></i>    
                          Настройки
                     </button>
                 </a>
 
                 <a href="#" style={{textDecoration:"none"}}>
                     <button className="spans_icons" onClick={()=>updateToggle(4)}>
-                        <i class="fa-regular fa-handshake"></i>   
+                        <i className="fa-regular fa-handshake"></i>   
                         Партнерская программа
                     </button>
                 </a>
@@ -111,7 +111,7 @@ function Main() {
 
 
                 <div className="Vixod">
-                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <i className="fa-solid fa-right-from-bracket"></i>
                     <a href="#" style={{marginLeft:"10px", textDecoration:"none"}}>Выход</a>
                 </div>
             </div>
@@ -154,7 +154,7 @@ function Main() {
 
                                 <div className="right_cash" >
                                     <img src={account_img2} alt="" />
-                                    <i class="fa-solid fa-right-left"></i>
+                                    <i className="fa-solid fa-right-left"></i>
                                     <p>1220$</p>
                                 </div>
                                 
@@ -184,14 +184,14 @@ function Main() {
 
                             {/* <!-- Modal Balance --> */}
 
-                            <div class="modal fade" id="modalBalance1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                    <div class="modal-header modalHeader">
-                                        <h5 class="modal-title" id="exampleModalLabel">Ha какую сумму вы хотите пополнить</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div className="modal fade" id="modalBalance1" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div className="modal-dialog">
+                                    <div className="modal-content">
+                                    <div className="modal-header modalHeader">
+                                        <h5 className="modal-title" id="exampleModalLabel">Ha какую сумму вы хотите пополнить</h5>
+                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div className="modal-body">
                                             <div className="Modal_box1">
                                                 <button>100F</button>
                                             </div>
@@ -205,14 +205,14 @@ function Main() {
                             </div>
 
 
-                            <div class="modal fade" id="modalBalance2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                    <div class="modal-header modalHeader">
-                                        <h5 class="modal-title" id="exampleModalLabel">какую сумму вы хотите пополнить</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div className="modal fade" id="modalBalance2" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div className="modal-dialog">
+                                    <div className="modal-content">
+                                    <div className="modal-header modalHeader">
+                                        <h5 className="modal-title" id="exampleModalLabel">какую сумму вы хотите пополнить</h5>
+                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div className="modal-body">
                                             <div className="Modal_box1">
                                                 <button>500F</button>
                                             </div>
@@ -413,10 +413,10 @@ function Main() {
                         </div>
 
                         <div className="Buying_box">
-                            <button type="button" class="Hover_effected" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button type="button" className="Hover_effected" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <p className="m-0">Купить</p>
                             </button>
-                            <button type="button" class="Hover_effected" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <button type="button" className="Hover_effected" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                 <p className="m-0">Продать</p>
                             </button>
                         </div>
@@ -424,14 +424,14 @@ function Main() {
 
 
                             {/* <!-- Modal --> */}
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                <div class="modal-header modalHeader">
-                                    <h5 class="modal-title" id="exampleModalLabel">Вы уверенны что хотите купить?</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                <div className="modal-header modalHeader">
+                                    <h5 className="modal-title" id="exampleModalLabel">Вы уверенны что хотите купить?</h5>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div className="modal-body">
                                         <div className="Modal_box1">
                                             <button>100F</button>
                                         </div>
@@ -445,14 +445,14 @@ function Main() {
                             </div>
 
 
-                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                <div class="modal-header modalHeader">
-                                    <h5 class="modal-title" id="exampleModalLabel">Вы уверенны что хотите продать?</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                <div className="modal-header modalHeader">
+                                    <h5 className="modal-title" id="exampleModalLabel">Вы уверенны что хотите продать?</h5>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div className="modal-body">
                                     <div className="Modal_box1">
                                         <button style={{width:"95%", height:"60px"}}>Продажа будет доступна после</button>
                                         <button style={{width:"55%", backgroundColor:"#A790C6", color:"white"}}>43:45:30:43</button>
@@ -491,8 +491,8 @@ function Main() {
                         </form>
 
                         <form className="AccountEmail_box changeName_box">
-                            <label htmlFor="nameID">Привязать аккаунт к другой почте</label>
-                            <input type="email" placeholder="Почта" id="nameID"/>
+                            <label htmlFor="emailD">Привязать аккаунт к другой почте</label>
+                            <input type="email" placeholder="Почта" id="emailID"/>
                             <button className="Hover_effected">Подтвердить</button>
                         </form>
                         
@@ -502,14 +502,14 @@ function Main() {
 
                             <div className="inputIcons"> 
                                 <input type="text" placeholder="Пароль" onChange={InputPrivacy}/>
-                                <i class="fa-regular fa-eye-slash"></i>
+                                <i className="fa-regular fa-eye-slash"></i>
                                 {/* <i class="fa-regular fa-eye"></i> */}
                             </div>
         
                                         
                             <div className="inputIcons"> 
                                 <input type="password" placeholder="Повторить пароль" onChange={InputPrivacy}/>
-                                <i class="fa-regular fa-eye-slash"></i>
+                                <i className="fa-regular fa-eye-slash"></i>
                               
                                 {/* <i class="fa-regular fa-eye"></i> */}
                             </div>
