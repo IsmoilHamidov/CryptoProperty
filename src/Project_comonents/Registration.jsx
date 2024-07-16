@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useState } from "react";
 import facebook from '../images/facebook_icon_130940 4.png';
 import google from '../images/google.png';
 import Reg_Validation from "./Reg_Validation"
